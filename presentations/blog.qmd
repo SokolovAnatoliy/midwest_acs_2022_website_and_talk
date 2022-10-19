@@ -1,0 +1,24 @@
+---
+title: "MacGillivray Group Presentations"
+listing: 
+  - id: lab-reports
+    contents: "lab-reports"
+    type: table
+  - id: group-meetings
+    contents: "group-meetings"
+    type: table
+    page-size: 10
+---
+
+## Lab Reports
+
+:::{#lab-reports}
+:::
+
+## Group Meeting Presentations
+
+:::{#group-meetings}
+:::
+---
+
+This is a collection of all presentations given in the MacGillivray Group

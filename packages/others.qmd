@@ -1,0 +1,10 @@
+---
+title: "Other Packages of use to the group"
+editor: visual
+---
+
+Please use this location to document any other packages of use to the group.
+
+### [Tidyverse](https://www.tidyverse.org/)
+
+![](tidyverse.PNG){fig-align="center"}

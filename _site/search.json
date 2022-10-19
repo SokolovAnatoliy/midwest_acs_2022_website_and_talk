@@ -1,0 +1,114 @@
+[
+  {
+    "objectID": "papers/code/example paper/index.html",
+    "href": "papers/code/example paper/index.html",
+    "title": "X-ray crystal structure of trans-bis(pyridin-3-yl)ethylene: comparing the supramolecular structural features among the symmetrical bis(n-pyridyl)ethylenes (n = 2, 3, or 4) constitutional isomers",
+    "section": "",
+    "text": "The molecular structure of trans-bis(pyridin-3-yl)ethylene (3,3′-bpe), C12H10N2, as determined by single-crystal X-ray diffraction is reported. The molecule self-assembles into two dimensional arrays by a combination of C—H⋯N hydrogen bonds and edge-to-face C—H⋯π interactions that stack in a herringbone arrangement perpendicular to the crystallographic c-axis. The supramolecular forces that direct the packing of 3,3′-bpe as well as its packing assembly within the crystal are also compared to those observed within the structures of the other symmetrical isomers trans-1,2-bis(n-pyridyl)ethylene (n,n′-bpe, where n = n′ = 2 or 4)."
+  },
+  {
+    "objectID": "papers/code/example paper/index.html#chemical-context",
+    "href": "papers/code/example paper/index.html#chemical-context",
+    "title": "X-ray crystal structure of trans-bis(pyridin-3-yl)ethylene: comparing the supramolecular structural features among the symmetrical bis(n-pyridyl)ethylenes (n = 2, 3, or 4) constitutional isomers",
+    "section": "1. Chemical context",
+    "text": "1. Chemical context\nBis(pyridyl)ethylenes have arisen as somewhat of a natural extension of cinnamic acid as a series of molecules capable of undergoing [2+2] photodimerization in the solid state to generate cyclobutanes. Foundational work by Schmidt and coworkers on trans-cinnamic acids led to the formation of the `Topochemical Postulate’, which dictated that olefins within 4.2 Å of one another are capable of undergoing the photodimerization process. Unlike cinnamic acid, which crystallizes in such a way that the olefins are rendered photoactive (olefins within 4.2 Å of one another), the native crystalline forms of bis(pyridyl)ethylenes are photostable (olefins separated by distances > 4.2 Å in the crystal). To achieve photoreactivity of these olefins, it often becomes necessary to use a `molecular template’ that can interact with the olefin-containing bipyridine via supramolecular interactions such as hydrogen bonding, halogen bonding, argento- and aurophilic interactions, and dative N→B interactions. Analyses of the crystal structures of symmetric bis(pyridyl)ethylenes derivatives such as the trans-bis(n-pyridyl)ethylenes series of isomers (n = 2, 3 or 4) is necessary to understand the forces that govern their crystallization, why they are photostable, and why use templates to achieve photoreactivity (Campillo-Alvarado et al., 2019; Chanthapally et al., 2014; MacGillivray et al., 2008; Pahari et al., 2019; Sezer et al., 2017; Volodin et al., 2018)."
+  },
+  {
+    "objectID": "papers/code/example paper/index.html#structural-commentary",
+    "href": "papers/code/example paper/index.html#structural-commentary",
+    "title": "X-ray crystal structure of trans-bis(pyridin-3-yl)ethylene: comparing the supramolecular structural features among the symmetrical bis(n-pyridyl)ethylenes (n = 2, 3, or 4) constitutional isomers",
+    "section": "2. Structural commentary",
+    "text": "2. Structural commentary\nThe alkene 3,3′-bpe crystallizes in the centrosymmetric monoclinic space group P21/n (Fig. 1). The asymmetric unit consists of one-half molecule of 3,3′-bpe with the C=C bond sitting on a crystallographic center of inversion. The pyridyl rings adopt an anti-conformation with respect to each other (Fig. 1).\n\n\n\nSingle crystal structure for trans-bis(pyridin-3-yl)ethylene (3,3′-bpe) with anisotropic displacement ellipsoids at 50% probability."
+  },
+  {
+    "objectID": "papers/code/example paper/index.html#supramolecular-features",
+    "href": "papers/code/example paper/index.html#supramolecular-features",
+    "title": "X-ray crystal structure of trans-bis(pyridin-3-yl)ethylene: comparing the supramolecular structural features among the symmetrical bis(n-pyridyl)ethylenes (n = 2, 3, or 4) constitutional isomers",
+    "section": "3. Supramolecular features",
+    "text": "3. Supramolecular features\nAdjacent 3,3′-bpe molecules interact primarily via edge-to-face C—H⋯π[d(C6⋯pyr) 3.58 Å; Θ(C6—H6⋯pyr) 131.8°] forces between pyridyl rings (Fig. 2). Those rings also participate in C—H⋯N [d(C4⋯N1) 3.59 Å; Θ(C4—H4⋯N1) 139.5°] hydrogen bonds (Fig. 2). The forces generate nearly planar sheets (Fig. 3), which aggregate into a herringbone arrangement of adjacent sheets (Fig. 4). Nearest-neighbor alkene C=C bonds of 3,3′-bpe between adjacent sheets reveals a parallel, but offset orientation of the neighboring alkenes relative to one another at a distance of 5.50 Å. The distance exceeds the inter-alkene separation of Schmidt for photodimerizarion and suggests that 3,3′-bpe is photostable (Schmidt, 1971).\n\n\n\nC—H⋯N and edge-to-face C—H⋯π inter­molecular inter­actions (both yellow dotted lines) highlighting nearest-neighbor alkene separations (red dashed arrow) (view along a).\n\n\n\n\n\nEdge-on view of sheets encompassing neighboring mol­ecules of 3,3′-bpe supported by C—H⋯N and C—H⋯π inter­molecular inter­actions.\n\n\n\n\n\nHerringbone arrangement of neighboring sheets of 3,3′-bpe molecules."
+  },
+  {
+    "objectID": "papers/code/example paper/index.html#database-survey",
+    "href": "papers/code/example paper/index.html#database-survey",
+    "title": "X-ray crystal structure of trans-bis(pyridin-3-yl)ethylene: comparing the supramolecular structural features among the symmetrical bis(n-pyridyl)ethylenes (n = 2, 3, or 4) constitutional isomers",
+    "section": "4. Database survey",
+    "text": "4. Database survey\nFor the n,n′-bpe (where: n = n′ = 2, 3, or 4) series of symmetric alkenes, all three adopt nearly planar conformations (Table 1), with the pyridyl rings of 3,3′-bpe and 2,2′-bpe adopting anti-conformations with respect to each other. The packings of the symmetric alkenes are defined by combinations of C—H⋯π and/or C—H⋯N hydrogen bonds (Table 1) to form either one-dimensional chain (2,2′-bpe, Fig. 5) or two-dimensional sheet (3,3′-bpe and 4,4′-bpe) structures (Fig. 6). Similar to 3,3′-bpe, the alkene C=C bonds of 2,2′-bpe (6.09 Å; Vansant et al., 1980) and 4,4′-bpe (5.72 Å; Tinnemans et al., 2018) (Table 1) are beyond the separation distance of Schmidt (1971).\n\n\n\n\n \n  \n    Compound \n    2,2′-bpe \n    3,3′-bpe \n    4,4′-bpe \n  \n \n\n  \n    Twist angle φ (°) \n    7.43 \n    5.17 \n    9.14 \n  \n  \n    Solid-state packing assembly \n    corrugated chains \n    approximately planar sheets \n    planar sheets \n  \n  \n    Assembly forces \n    edge-to-face C—H⋯π \n    edge-to-face C—H⋯π, C—H⋯N \n    C—H⋯N, face-to-face π–π \n  \n  \n    Nearest-neighbor alkene separation (Å) \n    6.09 \n    5.5 \n    5.72 \n  \n\n\n\n\n\n\n\n\nCorrugated, one-dimensional chains of 2,2′-bpe.\n\n\n\n\n\nPlanar, two-dimensional sheets of 4,4′-bpe."
+  },
+  {
+    "objectID": "papers/code/example paper/index.html#synthesis-and-crystallization",
+    "href": "papers/code/example paper/index.html#synthesis-and-crystallization",
+    "title": "X-ray crystal structure of trans-bis(pyridin-3-yl)ethylene: comparing the supramolecular structural features among the symmetrical bis(n-pyridyl)ethylenes (n = 2, 3, or 4) constitutional isomers",
+    "section": "5. Synthesis and crystallization",
+    "text": "5. Synthesis and crystallization\nThe alkene 3,3′-bpe was prepared as described (Quentin et al., 2020; Gordillo et al., 2007, 2013) via a one-pot, aqueous Pd-catalyzed Hiyama-Heck cross-coupling between 3-bromopyridine and triethoxyvinylsilane (2:1 molar ratio) (Fig. 7). Flash chromatography (SiO2, 10% MeOH/CH2Cl2) furnished 3,3′-bpe as yellow crystals: 222.3 mg (23%). A portion of 3,3′-bpe was dissolved in CHCl3 and allowed to slowly evaporate at room temperature. Single crystals in the form of colorless plates suitable for single crystal X-ray diffraction formed within seven days.\n\n\n\nSynthesis of 3,3’ bpe via Pd-catalyzed Hiyama–Heck cross-coupling."
+  },
+  {
+    "objectID": "papers/code/example paper/index.html#refinement",
+    "href": "papers/code/example paper/index.html#refinement",
+    "title": "X-ray crystal structure of trans-bis(pyridin-3-yl)ethylene: comparing the supramolecular structural features among the symmetrical bis(n-pyridyl)ethylenes (n = 2, 3, or 4) constitutional isomers",
+    "section": "6. Refinement",
+    "text": "6. Refinement\nCrystal data, data collection and structure refinement details for 3,3′-bpe are summarized in Table 2. All non-hydrogen atoms were refined anisotropically. Hydrogen atoms were located in the difference-Fourier map and freely refined with 0.93 < C—H < 0.99 Å. Refinement of the hydrogen atoms led to a data-to-parameter ratio of ∼10. The single-crystal data were collected at room temperature to best reflect conditions under which photochemical reactions are typically conducted. Room-temperature data can also lead to fewer reflections and/or scaling anomalies.\n\n\n\n\n \n  \n    Crystal data \n    Information \n  \n \n\n  \n    Chemical formula \n    C12H10N2 \n  \n  \n    Mr \n    182.22 \n  \n  \n    Crystal system, space group \n    Monoclinic, P21/n \n  \n  \n    Temperature (K) \n    296 \n  \n  \n    a, b, c (Å) \n    7.4591 (7), 5.5045 (6), 11.7803 (12) \n  \n  \n    β (°) \n    99.638 (5) \n  \n  \n    V (Å3) \n    476.86 (8) \n  \n  \n    Z \n    2 \n  \n  \n    Radiation type \n    Mo Kα \n  \n  \n    μ (mm−1) \n    0.08 \n  \n  \n    Crystal size (mm) \n    0.18 × 0.12 × 0.06 \n  \n  \n    NA \n    NA \n  \n  \n    Data collection \n    NA \n  \n  \n    Diffractometer \n    Bruker Nonius KappaCCD \n  \n  \n    Absorption correction \n    Multi-scan (SADABS; Krause et al., 2015) \n  \n  \n    Tmin, Tmax \n    0.989, 0.995 \n  \n  \n    No. of measured, independent and observed [I > 2σ(I)] reflections \n    2410, 836, 587 \n  \n  \n    Rint \n    3.4000000000000002E-2 \n  \n  \n    NA \n    NA \n  \n  \n    Refinement \n    NA \n  \n  \n    R[F2 > 2σ(F2)], wR(F2), S \n    0.050, 0.137, 1.07 \n  \n  \n    No. of reflections \n    836 \n  \n  \n    No. of parameters \n    84 \n  \n  \n    H-atom treatment \n    All H-atom parameters refined \n  \n  \n    Δρmax, Δρmin (e Å−3) \n    0.13, −0.16"
+  },
+  {
+    "objectID": "papers/papers.html",
+    "href": "papers/papers.html",
+    "title": "MacGillivray Group Papers",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nX-ray crystal structure of trans-bis(pyridin-3-yl)ethylene: comparing the supramolecular structural features among the symmetrical bis(n-pyridyl)ethylenes (n = 2, 3, or 4) constitutional isomers\n\n\nJay Quentin, Eric W. Reinheimer and Leonard R. MacGillivray*\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Len MacGillivray Group Website",
+    "section": "",
+    "text": "This is a demonstration of a website built with Quarto! If everyone contributes their own work - the website will be a useful resource to the group for years to come.\n\n\n\n\n\nIt can combine R, Python and much more!\nHere is an R demo.\n```{r}\nlen = \"Len's Group\"\nlen %>% str_to_lower()\n```\n\n\n[1] \"len's group\"\n\n\nHere is a python demo\n```{python}\nprint(f\"{r.len.lower()}\")\n```\n\n\nlen's group\n\n\nHere is a flow chart of what you need to do if you are new.\n```{mermaid}\nflowchart LR\n  A[Hard edge] --> B(Round edge)\n  B --> C{Decision}\n  C --> D[Result one]\n  C --> E[Result two]\n```\n\n\n\n\nflowchart LR\n  A[Hard edge] --> B(Round edge)\n  B --> C{Decision}\n  C --> D[Result one]\n  C --> E[Result two]"
+  },
+  {
+    "objectID": "about/about.html",
+    "href": "about/about.html",
+    "title": "Leonard R. MacGillivray",
+    "section": "",
+    "text": "Phone: 319-335-3504\nOffice: E331 or E555 CB\nEmail: len-macgillivray@uiowa.edu\nCV: View Curriculum Vitae\nGroup Homepage: http://chem.uiowa.edu/macgillivray-research-group\nDivisions: Organic Chemistry\nBiosketch:\n\nB.Sc. (Hons.), Saint Mary’s University (1994), Halifax, NS, Canada\nPh.D., University of Missouri-Columbia (1998), Columbia, MO, USA\nResearch Associate, Steacie Institute for Molecular Sciences, National Research Council of Canada (1998-2000), Ottawa, ON, Canada\nAdjunct Research Professor, Ottawa-Carleton Chemistry Institute (1999-2000), Ottawa, ON, Canada\n\n\n\n\nMolecular recognition; solid state organic and inorganic chemistry; crystal photochemistry; nanotechnology. Synthesis of porous molecular solids and nanometer scale molecular structures for applications in separations, catalysis, and molecular switching. Organic solid state synthesis by design.\n\n\n\nOur research is in the field of supramolecular chemistry - an area that bridges chemistry, physics, and biology through exploiting noncovalent bonds - as related to organic solids. Our efforts involve the crystal engineering of:\n\n\nThe ability to make covalent bonds in the organic solid state impacts fields ranging from organic synthesis (e.g. new molecules) to green chemistry (e.g. solvent-free synthesis) to materials science (e.g. information storage). We use template molecules (e.g. resorcinol) to direct the formation of covalent bonds in solids. Both hydrogen-bond and coordination-driven self-assembly are used to position olefins in multi-component assemblies in solids for [2+2] photodimerizations.\n\n\n\nOrganic semiconductors molecules (e.g. pentacene) are leading candidates in the design of flexible electronics (e.g. electronic paper). We have shown how organic semiconductors can be forced to stack into face-to-face arrangements in solids. We introduced a class of semiconductor materials known as ‘semiconductor cocrystals’ where we showed that cocrystallizations of organic semiconductors afford π-stacking arrangements. We are collaborating with Prof. Alexei Tivanski (Dept. of Chem., UI) to study the electrical properties of the semiconductor solids.\n\n\n\nThe bulk properties of an active pharmaceutical ingredient (API) (i.e. drug molecule) can be altered using molecules that cocrystallize with an API to give a new solid form. We have described cocrystals involving caffeine and carboxylic acids based on competing hydrogen-bonded heteromolecular synthons. We have also described the first pharmaceutical nanococrystals and a unique role of tautomers in cocrystal design and formation. We are collaborating with Dr. Geoff Zhang of Abbvie (Chicago, IL) to develop targeted pharmaceutical cocrystal materials.\n\n\n\n\n\nChu, Q.; Duncan, A.J.E.; Papaefstathiou, G.S.; Hamilton, T.D.; Atkinson, M.B.J.; Mariappan, S.V.S.; MacGillivray, L.R., “Putting Cocrystal Stoichiometry to Work: A Reactive Hydrogen-Bonded ‘Superassembly’ Enables Nanoscale Enlargement of a Metal-Organic Rhomboid via a Solid-State Photocycloaddition”, J. Am. Chem. Soc. 2018, 140, 4940-4944.\nCampillo-Alvarado, G.; Brannan, A.D.; Swenson, D.C.; MacGillivray, L.R., “Exploiting the Hydrogen-Bonding Capacity of Organoboronic Acids to Direct Covalent Bond Formation in the Solid State: Templation and Catalysis of the [2+2] Photodimerization”, Org. Lett. 2018, 20, 5490-5492.\nSinnwell, M.A.; Blad, J.N.; Thomas, L.R.; MacGillivray, L.R., “Structural Flexibility of Halogen Bonds Showed in a Single-Crystal-to-Single-Crystal [2+2] Photodimerization”, IUCrJ. 2018, 5, 491-496.\nOburn, S.M.; Swenson, D.C.; Mariappan, S.V.S.; MacGillivray, L.R., “Supramolecular Construction of an Aldehyde-Cyclobutane via the Solid State: Combining Reversible Imine Formation and Metal-Organic Self-Assembly”, J. Am. Chem. Soc. 2017, 139, 8452-8454.\n\n\n\n\nEnvironmental/Atmospheric\nMaterials/Polymer\nNatural Products/Medicinal\nSynthesis"
+  },
+  {
+    "objectID": "presentations/lab-reports/Hello/index.html",
+    "href": "presentations/lab-reports/Hello/index.html",
+    "title": "Penguins, meet Quarto!",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "presentations/lab-reports/Hello/index.html#meet-the-penguins",
+    "href": "presentations/lab-reports/Hello/index.html#meet-the-penguins",
+    "title": "Penguins, meet Quarto!",
+    "section": "Meet the penguins",
+    "text": "Meet the penguins\n\nThe penguins data from the palmerpenguins package contains size measurements for 344 penguins from three species observed on three islands in the Palmer Archipelago, Antarctica.\nThe plot below shows the relationship between flipper and bill lengths of these penguins."
+  },
+  {
+    "objectID": "presentations/blog.html",
+    "href": "presentations/blog.html",
+    "title": "MacGillivray Group Presentations",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nOct 17, 2022\n\n\nPenguins, meet Quarto!\n\n\nFizz McPhee\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "presentations/blog.html#group-meeting-presentations",
+    "href": "presentations/blog.html#group-meeting-presentations",
+    "title": "MacGillivray Group Presentations",
+    "section": "Group Meeting Presentations",
+    "text": "Group Meeting Presentations\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nData Science applied to crystal engineering\n\n\nAnatoliy Sokolov\n\n\n\n\n\n\nNo matching items\n\n\n\nThis is a collection of all presentations given in the MacGillivray Group"
+  },
+  {
+    "objectID": "packages/packages.html",
+    "href": "packages/packages.html",
+    "title": "MacGillivray Group Internal Packages",
+    "section": "",
+    "text": "Please use this location to link your deployed packages for better dissemination within the MacGillivray group lab.\n\n\nThis is a package for the 2022 ACS Midwest Regional Meeting. The intended purpose is to demonstrate the use of packages and functions to drive reproducible research within a research group.\nInstall the package with:\n\ninstall.packages(\"iowacrystalengineering\")"
+  },
+  {
+    "objectID": "packages/others.html",
+    "href": "packages/others.html",
+    "title": "Other Packages of use to the group",
+    "section": "",
+    "text": "Tidyverse"
+  }
+]

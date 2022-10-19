@@ -1,0 +1,15 @@
+---
+title: "MacGillivray Group Papers"
+listing: 
+  - id: paper-code
+    contents: "code"
+    type: table
+---
+
+## Links to published papers source code
+
+:::{#paper-code}
+:::
+
+---
+

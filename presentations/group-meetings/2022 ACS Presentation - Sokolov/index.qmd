@@ -1,0 +1,339 @@
+---
+title: "Data Science applied to crystal engineering"
+author: "Anatoliy Sokolov"
+format: 
+  revealjs:
+    hash-type: number
+    transition: fade
+    auto-stretch: false
+    height: 900
+    width: 1600
+    logo: "iowa_presentation/images/dow.svg"
+    footer: "2022 Midwest ACS"
+    slide-number: c/t
+    embed-resources: false
+    chalkboard: true
+---
+
+## All about Tony
+
+![](iowa_presentation/images/about_tony.png){fig-align="center" width="1494"}
+
+## What are my goals for this talk?
+
+::: incremental
+<br>
+
+1.  Give you an [inside look]{style="font-weight:bold;color:#00008B;"} at an R&D focused Data Science workflow in a large company
+
+<br>
+
+2.  Show you how [you/your group/your department]{style="font-weight:bold;color:#00008B;"} can benefit from a similar workflow
+
+<br>
+
+3.  Give you a [mock example]{style="font-weight:bold;color:#00008B;"} relating to crystal engineering.
+:::
+
+## As a Citizen Data Scientist in R&D, I need a data science workbench that offers​
+
+::: incremental
+-   an [approachable & collaborative]{style="font-weight:bold;color:#00008B;"} workspace that welcomes new researchers​
+
+-   capabilities & convenience of a modern development environment with [extremely low barriers to exploring ideas]{style="font-weight:bold;color:#00008B;"} and starting projects​
+
+-   safe & secure [data connectivity with minimal overhead]{style="font-weight:bold;color:#00008B;"}​
+
+-   [simple, secure, & rapid]{style="font-weight:bold;color:#00008B;"} deployment requiring no new permissions or reviews
+:::
+
+## How do we run Citizen Data Science at Dow?
+
+::: panel-tabset
+#### Education
+
+-   RStudio Academy
+
+-   DataQuest
+
+-   On the job training
+
+-   Guidelines for development
+
+#### Tools
+
+RStudio (Posit) Teams
+
+-   Workbench
+
+-   Connect
+
+-   Package Manager
+
+Can scale as needed with Microsoft Azure
+
+#### Community
+
+-   Dedicated Data Science community
+
+-   Teams Channels
+
+-   In-person/virtual coaching
+
+-   Seminars / Training
+
+-   Internal Conference on Data Science
+:::
+
+## Education
+
+-   Our goal is to train R&D Scientists in the use of data science tools in a way that fits their work, goals and time commitments
+
+-   Teach best practices for reproducible research
+
+::: columns
+::: {.column width="70%"}
+![](iowa_presentation/images/guidelines.png)
+:::
+
+::: {.column width="30%"}
+![](iowa_presentation/images/guidelines_youtube.PNG) ![](iowa_presentation/images/guidelines_youtube_qr.PNG){fig-align="right" width="200"}
+:::
+:::
+
+## Tools to enable your Data Science Work {background-color="#303436"}
+
+![](iowa_presentation/images/rstudio_teams.PNG)
+
+## How do you / your group / your department benefit? {background-color="#303436"}
+
+::: panel-tabset
+#### Your Department
+
+-   Resource management
+
+-   Cost savings
+
+-   Reputation development
+
+-   Intra-group collaboration
+
+-   Own your capabilities
+
+#### Your Group
+
+-   Reproducibility across students
+
+-   Maintain capabilities
+
+-   Group-specific workflows
+
+-   Low barriers for on-boarding students
+
+#### You
+
+-   Focused on you (in a few months)
+
+-   Very high collaboration potential
+
+-   Relevant skills for job placement
+:::
+
+[Department:]{style="font-weight:bold;color:#EC5BA3;"} Maintains RStudio Teams servers + department Package Manager.
+
+[Groups:]{style="font-weight:bold;color:#EC5BA3;"} Use RStudio Connect for communication
+
+[Students:]{style="font-weight:bold;color:#EC5BA3;"} Use RStudio Workbench as datascience tool for their work.
+
+## Mock Crystal Engineering Group Workflow
+
+1.  Analyze data using markdown notebooks (R / Python + others)
+
+2.  Transform markdown to presentations / reports / papers using Quarto
+
+3.  Deploy work to Rstudio Connect to communicate results
+
+4.  Use git-backed workflow to maintain capabilities.
+
+## Task: Make a common plot for your lab
+
+::: goal
+Create a nice looking table to communicate your results.
+:::
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-width: 12
+library(dplyr)
+library(readr)
+library(gt)
+library(gtExtras)
+library(iowacrystalengineering)
+
+table_data = read_csv(system.file("extdata/chemistry_rankings.csv", package = "iowacrystalengineering"), show_col_types = FALSE)
+
+table_data %>%
+  rowwise() %>% 
+  mutate(logo = show_me_a_logo(short_name)) %>% 
+  ungroup() %>% 
+  select(-short_name) -> logo_table
+
+starting_table = table_data %>% select(-short_name)
+
+logo_table %>% 
+  make_cool_table(title = "Ranking of Chemistry Departments", merge_cols = c("Institution", "mascot"), images_col_name = "logo")
+
+
+
+```
+
+## break it down I {.scrollable}
+
+::: columns
+::: {.column width="40%"}
+Create a nice looking table to communicate your results.
+:::
+
+::: {.column width="60%"}
+```{r}
+#| echo: true
+#| code-line-numbers: "1"
+starting_table
+```
+:::
+:::
+
+## break it down II {.scrollable}
+
+::: columns
+::: {.column width="40%"}
+Create a nice looking table to communicate your results.
+
+Use some helpful table layout tools.
+:::
+
+::: {.column width="60%"}
+```{r}
+#| echo: true
+#| code-line-numbers: "2,3"
+starting_table %>% 
+  gt::gt() %>%
+  gt::tab_header(title = "Ranking of Chemistry Departments") %>% 
+  gt::as_raw_html()
+```
+:::
+:::
+
+## break it down III {.scrollable}
+
+::: columns
+::: {.column width="40%"}
+Create a nice looking table to communicate your results.
+
+Let's make the layout a bit nicer.
+:::
+
+::: {.column width="60%"}
+```{r}
+#| echo: true
+#| code-line-numbers: "4,5"
+starting_table %>% 
+  gt::gt() %>%
+  gt::tab_header(title = "Ranking of Chemistry Departments") %>%
+  gtExtras::gt_theme_nytimes() %>%
+  gtExtras::gt_merge_stack(col1 = Institution, col2 = mascot) %>%
+  gt::as_raw_html() 
+
+```
+:::
+:::
+
+## break it down IV {.scrollable}
+
+::: columns
+::: {.column width="40%"}
+Create a nice looking table to communicate your results.
+
+Let's add the logos to make our communication more effective.
+:::
+
+::: {.column width="60%"}
+```{r}
+#| echo: true
+#| code-line-numbers: "6"
+logo_table %>% 
+  gt::gt() %>%
+  gt::tab_header(title = "Ranking of Chemistry Departments") %>%
+  gtExtras::gt_theme_nytimes() %>%
+  gtExtras::gt_merge_stack(col1 = Institution, col2 = mascot) %>%
+  gtExtras::gt_img_rows(columns = logo, height = 30, img_source = "local") %>% 
+  gt::as_raw_html() 
+```
+:::
+:::
+
+## break it down V {.scrollable}
+
+::: columns
+::: {.column width="40%"}
+Create a nice looking table to communicate your results.
+
+Finish it by wrapping a commonly used table layout into a function
+:::
+
+::: {.column width="60%"}
+```{r}
+#| echo: true
+#| code-line-numbers: "2,3,4"
+logo_table %>% 
+  make_cool_table(title = "Ranking of Chemistry Departments", 
+                  merge_cols = c("Institution", "mascot"), 
+                  images_col_name = "logo", image_height = 30) 
+```
+:::
+:::
+
+## Now Lets Talk About Publishing
+
+![Let's try to replicate this paper](iowa_presentation/images/example_pdf.PNG){fig-align="center" width="1405"}
+
+## Using Quarto!
+
+Quarto® is an open-source scientific and technical publishing system built on Pandoc
+
+-   Create dynamic content with Python, R, Julia, and Observable.
+
+-   Author documents as plain text markdown or Jupyter notebooks.
+
+-   Publish high-quality articles, reports, presentations, websites, blogs, and books in HTML, PDF, MS Word, ePub, and more.
+
+-   Author with scientific markdown, including equations, citations, crossrefs, figure panels, callouts, advanced layout, and more.
+
+::: {style="text-align: center; margin-top: 1em"}
+[Let's take a look](https://quarto.org/){preview-link="true" style="text-align: center"}
+:::
+
+## Live demo?
+
+![Live Demo!](iowa_presentation/images/live_demo.PNG){fig-align="center" width="1713"}
+
+## References
+
+::: columns
+::: {.column width="50%"}
+Hello Quarto:
+
+Share • Collaborate • Teach • Reimagine
+
+![](iowa_presentation/images/quart_intro_qr_code.PNG){fig-align="center" width="300"}
+:::
+
+::: {.column width="50%"}
+Tony's Github Link:
+
+Presentation + Package
+
+![](iowa_presentation/images/sokolov_github_qr.PNG){fig-align="center" width="300"}
+:::
+:::

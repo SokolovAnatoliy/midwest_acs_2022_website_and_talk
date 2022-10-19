@@ -1,0 +1,68 @@
+---
+title: "Leonard R. MacGillivray"
+---
+
+## Professor
+
+![](len-faculty.jpg){style="float:right;"}
+
+#### *Department of Chemistry Professor (Secondary Appointment), College of Pharmacy Department Executive Officer (Department Chair)*
+
+**Phone:** 319-335-3504
+
+**Office:** E331 or E555 CB
+
+**Email:** [len-macgillivray\@uiowa.edu](mailto:len-macgillivray@uiowa.edu)
+
+**CV:** [View Curriculum Vitae](https://chem.uiowa.edu/sites/chem.uiowa.edu/files/macgillivray-cv-nov-2016.pdf)
+
+**Group Homepage:** <http://chem.uiowa.edu/macgillivray-research-group>
+
+**Divisions:** [Organic Chemistry](https://chem.uiowa.edu/research/organic)
+
+**Biosketch:**
+
+-   B.Sc. (Hons.), Saint Mary's University (1994), Halifax, NS, Canada
+
+-   Ph.D., University of Missouri-Columbia (1998), Columbia, MO, USA
+
+-   Research Associate, Steacie Institute for Molecular Sciences, National Research Council of Canada (1998-2000), Ottawa, ON, Canada
+
+-   Adjunct Research Professor, Ottawa-Carleton Chemistry Institute (1999-2000), Ottawa, ON, Canada
+
+### Keywords:
+
+Molecular recognition; solid state organic and inorganic chemistry; crystal photochemistry; nanotechnology. Synthesis of porous molecular solids and nanometer scale molecular structures for applications in separations, catalysis, and molecular switching. Organic solid state synthesis by design.
+
+### Research Interests:
+
+Our research is in the field of supramolecular chemistry - an area that bridges chemistry, physics, and biology through exploiting noncovalent bonds - as related to organic solids. Our efforts involve the crystal engineering of:
+
+#### i) Organic solid-state reactivity
+
+The ability to make covalent bonds in the organic solid state impacts fields ranging from organic synthesis (e.g. new molecules) to green chemistry (e.g. solvent-free synthesis) to materials science (e.g. information storage). We use template molecules (e.g. resorcinol) to direct the formation of covalent bonds in solids. Both hydrogen-bond and coordination-driven self-assembly are used to position olefins in multi-component assemblies in solids for \[2+2\] photodimerizations.
+
+#### ii) Organic semiconductor materials
+
+Organic semiconductors molecules (e.g. pentacene) are leading candidates in the design of flexible electronics (e.g. electronic paper). We have shown how organic semiconductors can be forced to stack into face-to-face arrangements in solids. We introduced a class of semiconductor materials known as 'semiconductor cocrystals' where we showed that cocrystallizations of organic semiconductors afford π-stacking arrangements. We are collaborating with Prof. Alexei Tivanski (Dept. of Chem., UI) to study the electrical properties of the semiconductor solids.
+
+#### iii) Pharmaceutical cocrystals
+
+The bulk properties of an active pharmaceutical ingredient (API) (i.e. drug molecule) can be altered using molecules that cocrystallize with an API to give a new solid form. We have described cocrystals involving caffeine and carboxylic acids based on competing hydrogen-bonded heteromolecular synthons. We have also described the first pharmaceutical nanococrystals and a unique role of tautomers in cocrystal design and formation. We are collaborating with Dr. Geoff Zhang of Abbvie (Chicago, IL) to develop targeted pharmaceutical cocrystal materials.
+
+### Recent Publications:
+
+-   Chu, Q.; Duncan, A.J.E.; Papaefstathiou, G.S.; Hamilton, T.D.; Atkinson, M.B.J.; Mariappan, S.V.S.; MacGillivray, L.R., "Putting Cocrystal Stoichiometry to Work: A Reactive Hydrogen-Bonded 'Superassembly' Enables Nanoscale Enlargement of a Metal-Organic Rhomboid via a Solid-State Photocycloaddition", J. Am. Chem. Soc. 2018, 140, 4940-4944.
+-   Campillo-Alvarado, G.; Brannan, A.D.; Swenson, D.C.; MacGillivray, L.R., "Exploiting the Hydrogen-Bonding Capacity of Organoboronic Acids to Direct Covalent Bond Formation in the Solid State: Templation and Catalysis of the \[2+2\] Photodimerization", Org. Lett. 2018, 20, 5490-5492.
+-   Sinnwell, M.A.; Blad, J.N.; Thomas, L.R.; MacGillivray, L.R., "Structural Flexibility of Halogen Bonds Showed in a Single-Crystal-to-Single-Crystal \[2+2\] Photodimerization", IUCrJ. 2018, 5, 491-496.
+-   Oburn, S.M.; Swenson, D.C.; Mariappan, S.V.S.; MacGillivray, L.R., "Supramolecular Construction of an Aldehyde-Cyclobutane via the Solid State: Combining Reversible Imine Formation and Metal-Organic Self-Assembly", J. Am. Chem. Soc. 2017, 139, 8452-8454.
+
+### Focus Areas:
+
+[Environmental/Atmospheric](https://chem.uiowa.edu/focus-areas/environmentalatmospheric)
+
+[Materials/Polymer](https://chem.uiowa.edu/focus-areas/materialspolymer)
+
+[Natural Products/Medicinal](https://chem.uiowa.edu/focus-areas/natural-productsmedicinal)
+
+[Synthesis](https://chem.uiowa.edu/focus-areas/synthesis)

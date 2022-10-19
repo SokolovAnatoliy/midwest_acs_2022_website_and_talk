@@ -1,0 +1,73 @@
+---
+title: "X-ray crystal structure of trans-bis(pyridin-3-yl)ethylene: comparing the supramolecular structural features among the symmetrical bis(n-pyridyl)ethylenes (n = 2, 3, or 4) constitutional isomers"
+author: "Jay Quentin, Eric W. Reinheimer and Leonard R. MacGillivray*"
+format:
+    html: 
+      self-contained: true
+      prefer-html: true
+---
+
+```{r}
+#| include: false
+library(dplyr)
+library(iowacrystalengineering)
+```
+
+The molecular structure of *trans*-bis(pyridin-3-yl)ethylene (**3,3′-bpe**), C~12~H~10~N~2~, as determined by single-crystal X-ray diffraction is reported. The molecule self-assembles into two dimensional arrays by a combination of C---H⋯N hydrogen bonds and edge-to-face C---H⋯*π* interactions that stack in a herringbone arrangement perpendicular to the crystallographic *c*-axis. The supramolecular forces that direct the packing of **3,3′-bpe** as well as its packing assembly within the crystal are also compared to those observed within the structures of the other symmetrical isomers *trans*-1,2-bis(*n*-pyridyl)ethylene (***n***,***n*****′-bpe**, where *n* = *n*′ = 2 or 4).
+
+## 1. Chemical context
+
+Bis(pyridyl)ethylenes have arisen as somewhat of a natural extension of cinnamic acid as a series of molecules capable of undergoing \[2+2\] photodimerization in the solid state to generate cyclobutanes. Foundational work by Schmidt and coworkers on *trans*-cinnamic acids led to the formation of the \`Topochemical Postulate', which dictated that [olefins](http://goldbook.iupac.org/O04281.html) within 4.2 Å of one another are capable of undergoing the photodimerization process. Unlike cinnamic acid, which crystallizes in such a way that the [olefins](http://goldbook.iupac.org/O04281.html) are rendered photoactive (olefins within 4.2 Å of one another), the native crystalline forms of bis(pyridyl)ethylenes are photostable (olefins separated by distances \> 4.2 Å in the crystal). To achieve photoreactivity of these [olefins,](http://goldbook.iupac.org/O04281.html) it often becomes necessary to use a \`molecular template' that can interact with the olefin-containing bipyridine *via* supramolecular interactions such as hydrogen bonding, halogen bonding, argento- and aurophilic interactions, and dative N→B interactions. Analyses of the crystal structures of symmetric bis(pyridyl)ethylenes derivatives such as the *trans*-bis(*n*-pyridyl)ethylenes series of isomers (*n* = 2, 3 or 4) is necessary to understand the forces that govern their crystallization, why they are photostable, and why use templates to achieve photoreactivity (Campillo-Alvarado *et al.*, 2019; Chanthapally *et al.*, 2014; MacGillivray *et al.*, 2008; Pahari *et al.*, 2019; Sezer *et al.*, 2017; Volodin *et al.*, 2018).
+
+![](paper_files/images/scheme1.png){style="width" fig-align="center" width="50%"}
+
+## 2. Structural commentary
+
+The alkene **3,3′-bpe** crystallizes in the centrosymmetric monoclinic [space group](http://reference.iucr.org/dictionary/Space_group) *P*2~1~/*n* (Fig. 1). The [asymmetric unit](http://reference.iucr.org/dictionary/Asymmetric_unit) consists of one-half molecule of **3,3′-bpe** with the C=C bond sitting on a crystallographic center of inversion. The pyridyl rings adopt an *anti*-conformation with respect to each other (Fig. 1).
+
+![Single crystal structure for trans-bis(pyridin-3-yl)ethylene (3,3′-bpe) with anisotropic displacement ellipsoids at 50% probability.](paper_files/images/figure_1.jpg){fig-align="center" width="80%"}
+
+## 3. Supramolecular features
+
+Adjacent **3,3′-bpe** molecules interact primarily *via* edge-to-face C---H⋯*π*\[*d*(C6⋯pyr) 3.58 Å; *Θ*(C6---H6⋯pyr) 131.8°\] forces between pyridyl rings (Fig. 2). Those rings also participate in C---H⋯N \[*d*(C4⋯N1) 3.59 Å; *Θ*(C4---H4⋯N1) 139.5°\] hydrogen bonds (Fig. 2). The forces generate nearly planar sheets (Fig. 3), which aggregate into a herringbone arrangement of adjacent sheets (Fig. 4). Nearest-neighbor alkene C=C bonds of **3,3′-bpe** between adjacent sheets reveals a parallel, but offset orientation of the neighboring [alkenes](http://goldbook.iupac.org/A00224.html) relative to one another at a distance of 5.50 Å. The distance exceeds the inter-alkene separation of Schmidt for photodimerizarion and suggests that **3,3′-bpe** is photostable (Schmidt, 1971).
+
+![C---H⋯N and edge-to-face C---H⋯π inter­molecular inter­actions (both yellow dotted lines) highlighting nearest-neighbor alkene separations (red dashed arrow) (view along a).](paper_files/images/figure_2.jpg){fig-align="center" width="80%"}
+
+![Edge-on view of sheets encompassing neighboring mol­ecules of 3,3′-bpe supported by C---H⋯N and C---H⋯π inter­molecular inter­actions.](paper_files/images/figure_3.jpg){fig-align="center" width="80%"}
+
+![Herringbone arrangement of neighboring sheets of 3,3′-bpe molecules.](paper_files/images/figure_4.jpg){fig-align="center" width="80%"}
+
+## 4. Database survey
+
+For the ***n*****,*n*′-bpe** (where: *n* = *n*′ = 2, 3, or 4) series of symmetric [alkenes,](http://goldbook.iupac.org/A00224.html) all three adopt nearly planar conformations (Table 1), with the pyridyl rings of **3,3′-bpe** and **2,2′-bpe** adopting *anti*-conformations with respect to each other. The packings of the symmetric [alkenes](http://goldbook.iupac.org/A00224.html) are defined by combinations of C---H⋯*π* and/or C---H⋯N hydrogen bonds (Table 1) to form either one-dimensional chain (**2,2′-bpe**, Fig. 5) or two-dimensional sheet (**3,3′-bpe** and **4,4′-bpe**) structures (Fig. 6). Similar to **3,3′-bpe**, the alkene C=C bonds of **2,2′-bpe** (6.09 Å; Vansant *et al.*, 1980) and **4,4′-bpe** (5.72 Å; Tinnemans *et al.*, 2018) (Table 1) are beyond the separation distance of Schmidt (1971).
+
+```{r}
+#| echo: false
+readxl::read_xlsx(system.file("extdata/tables_for_paper.xlsx",
+                              package = "iowacrystalengineering"), 
+                  sheet = "table1") %>% 
+  iowacrystalengineering::make_len_style_table(caption = "Structural features of the n,n′-bpe series of constitutional isomers The twist angle is defined as the angle between the plane defined by the four alkene atoms and the plane defined by either pyridine ring.", format = "html")
+
+```
+
+![Corrugated, one-dimensional chains of 2,2′-bpe.](paper_files/images/figure_5.jpg){fig-align="center" width="80%"}
+
+![Planar, two-dimensional sheets of 4,4′-bpe.](paper_files/images/figure_6.jpg){fig-align="center" width="80%"}
+
+## 5. Synthesis and crystallization
+
+The alkene **3,3′-bpe** was prepared as described (Quentin *et al.*, 2020; Gordillo *et al.*, 2007, 2013) via a one-pot, aqueous Pd-catalyzed Hiyama-Heck cross-coupling between 3-bromopyridine and triethoxyvinylsilane (2:1 molar ratio) (Fig. 7). Flash [chromatography](http://goldbook.iupac.org/C01075.html) (SiO~2~, 10% MeOH/CH~2~Cl~2~) furnished **3,3′-bpe** as yellow crystals: 222.3 mg (23%). A portion of **3,3′-bpe** was dissolved in CHCl~3~ and allowed to slowly evaporate at room temperature. Single crystals in the form of colorless plates suitable for single crystal X-ray diffraction formed within seven days.
+
+![Synthesis of 3,3' bpe via Pd-catalyzed Hiyama--Heck cross-coupling.](paper_files/images/figure_7.jpg){fig-align="center" width="80%"}
+
+## 6. Refinement
+
+Crystal data, data collection and structure [refinement](http://reference.iucr.org/dictionary/Refinement) details for **3,3′-bpe** are summarized in Table 2. All non-hydrogen atoms were refined anisotropically. Hydrogen atoms were located in the difference-Fourier map and freely refined with 0.93 \< C---H \< 0.99 Å. [Refinement](http://reference.iucr.org/dictionary/Refinement) of the hydrogen atoms led to a data-to-parameter ratio of ∼10. The single-crystal data were collected at room temperature to best reflect conditions under which photochemical reactions are typically conducted. Room-temperature data can also lead to fewer reflections and/or scaling anomalies.
+
+```{r}
+#| echo: false
+readxl::read_xlsx(system.file("extdata/tables_for_paper.xlsx",
+                              package = "iowacrystalengineering"),
+                  sheet = "table2") %>%  
+  make_len_style_table(caption = "Experimental details", format = "html")
+```

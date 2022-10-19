@@ -1,0 +1,23 @@
+---
+title: "MacGillivray Group Internal Packages"
+editor: visual
+---
+
+## MacGillivray Group packages
+
+Please use this location to link your deployed packages for better dissemination within the MacGillivray group lab.
+
+### Iowa Crystal Engineering
+
+This is a package for the 2022 ACS Midwest Regional Meeting. The intended purpose is to demonstrate the use of packages and functions to drive reproducible research within a research group.
+
+Install the package with:
+
+```{r}
+#| label: load-packages
+#| include: true
+#| eval: false
+
+install.packages("iowacrystalengineering")
+
+```

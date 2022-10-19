@@ -1,0 +1,15 @@
+[
+  {
+    "listing": "/papers/papers.html",
+    "items": [
+      "/papers/code/example paper/index.html"
+    ]
+  },
+  {
+    "listing": "/presentations/blog.html",
+    "items": [
+      "/presentations/lab-reports/Hello/index.html",
+      "/presentations/group-meetings/2022 ACS Presentation - Sokolov/index.html"
+    ]
+  }
+]

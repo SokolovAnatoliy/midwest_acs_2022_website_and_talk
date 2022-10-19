@@ -1,0 +1,65 @@
+---
+title: "Len MacGillivray Group Website"
+---
+
+Hello everyone. This is the internal reference website for the Leonard MacGillivray Group in the [Chemistry Department](https://chem.uiowa.edu/) at the University of Iowa.
+
+This is a demonstration of a website built with Quarto! If everyone contributes their own work - the website will be a useful resource to the group for years to come.
+
+![](tobias-meme.jpg){fig-align="center" width="434"}
+
+It can combine R, Python and much more!
+
+Here is an R demo.
+
+```{{r}}
+len = "Len's Group"
+len %>% str_to_lower()
+```
+
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+library(dplyr)
+library(reticulate)
+library(stringr)
+len = "Len's Group"
+len %>% str_to_lower()
+
+```
+
+
+
+Here is a python demo
+
+```{{python}}
+print(f"{r.len.lower()}")
+```
+
+```{python}
+#| echo: false
+print(f"{r.len.lower()}")
+```
+
+
+Here is a flow chart of what you need to do if you are new.
+
+```{{mermaid}}
+flowchart LR
+  A[Hard edge] --> B(Round edge)
+  B --> C{Decision}
+  C --> D[Result one]
+  C --> E[Result two]
+```
+
+
+```{mermaid}
+%%| echo: false
+flowchart LR
+  A[Hard edge] --> B(Round edge)
+  B --> C{Decision}
+  C --> D[Result one]
+  C --> E[Result two]
+```
